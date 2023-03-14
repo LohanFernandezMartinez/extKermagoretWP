@@ -11,6 +11,6 @@ function vpia_Add_My_Admin_Link() {
         'VeepIA Plugin !',
         'VeepIA Page',
         'manage_options',
-        'VeepIAPage/includes/vpia-first-acp-page.php' // The 'slug' - file to display when clicking the link
+        'VeepIAPage/includes/vpia-first-acp-page.php'
     );
 }
