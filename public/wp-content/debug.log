@@ -10,3 +10,31 @@
 [13-Mar-2023 13:33:09 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /var/www/html/public/wp-includes/class-wpdb.php on line 1775
 [13-Mar-2023 13:33:52 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /var/www/html/public/wp-includes/class-wpdb.php on line 1775
 [13-Mar-2023 13:33:55 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /var/www/html/public/wp-includes/class-wpdb.php on line 1775
+[13-Mar-2023 14:02:06 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /var/www/html/public/wp-includes/class-wpdb.php on line 1775
+[13-Mar-2023 14:03:17 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /var/www/html/public/wp-includes/class-wpdb.php on line 1775
+[13-Mar-2023 14:03:23 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /var/www/html/public/wp-includes/class-wpdb.php on line 1775
+[13-Mar-2023 14:03:58 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /var/www/html/public/wp-includes/class-wpdb.php on line 1775
+[13-Mar-2023 14:07:00 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /var/www/html/public/wp-includes/class-wpdb.php on line 1775
+[13-Mar-2023 14:07:00 UTC] PHP Stack trace:
+[13-Mar-2023 14:07:00 UTC] PHP   1. {main}() /var/www/html/public/index.php:0
+[13-Mar-2023 14:07:00 UTC] PHP   2. require() /var/www/html/public/index.php:17
+[13-Mar-2023 14:07:00 UTC] PHP   3. require_once() /var/www/html/public/wp-blog-header.php:13
+[13-Mar-2023 14:07:00 UTC] PHP   4. require_once() /var/www/html/public/wp-load.php:50
+[13-Mar-2023 14:07:00 UTC] PHP   5. require_once() /var/www/html/public/wp-config.php:98
+[13-Mar-2023 14:07:00 UTC] PHP   6. require_wp_db() /var/www/html/public/wp-settings.php:124
+[13-Mar-2023 14:07:00 UTC] PHP   7. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'db', $dbhost = 'localhost') /var/www/html/public/wp-includes/load.php:562
+[13-Mar-2023 14:07:00 UTC] PHP   8. wpdb->db_connect($allow_bail = *uninitialized*) /var/www/html/public/wp-includes/class-wpdb.php:734
+[13-Mar-2023 14:07:00 UTC] PHP   9. mysqli_real_connect($mysql = class mysqli { public $client_info = 'mysqlnd 8.0.28'; public $client_version = 80028; public $connect_errno = 2002; public $connect_error = 'No such file or directory'; public $errno = 2002; public $error = 'No such file or directory' }, $hostname = 'localhost', $username = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /var/www/html/public/wp-includes/class-wpdb.php:1775
+[13-Mar-2023 14:07:00 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[13-Mar-2023 14:32:24 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /var/www/html/public/wp-includes/class-wpdb.php on line 1775
+[13-Mar-2023 14:32:24 UTC] PHP Stack trace:
+[13-Mar-2023 14:32:24 UTC] PHP   1. {main}() /var/www/html/public/index.php:0
+[13-Mar-2023 14:32:24 UTC] PHP   2. require() /var/www/html/public/index.php:17
+[13-Mar-2023 14:32:24 UTC] PHP   3. require_once() /var/www/html/public/wp-blog-header.php:13
+[13-Mar-2023 14:32:24 UTC] PHP   4. require_once() /var/www/html/public/wp-load.php:50
+[13-Mar-2023 14:32:24 UTC] PHP   5. require_once() /var/www/html/public/wp-config.php:98
+[13-Mar-2023 14:32:24 UTC] PHP   6. require_wp_db() /var/www/html/public/wp-settings.php:124
+[13-Mar-2023 14:32:24 UTC] PHP   7. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'db', $dbhost = 'localhost') /var/www/html/public/wp-includes/load.php:562
+[13-Mar-2023 14:32:24 UTC] PHP   8. wpdb->db_connect($allow_bail = *uninitialized*) /var/www/html/public/wp-includes/class-wpdb.php:734
+[13-Mar-2023 14:32:24 UTC] PHP   9. mysqli_real_connect($mysql = class mysqli { public $client_info = 'mysqlnd 8.0.28'; public $client_version = 80028; public $connect_errno = 2002; public $connect_error = 'No such file or directory'; public $errno = 2002; public $error = 'No such file or directory' }, $hostname = 'localhost', $username = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /var/www/html/public/wp-includes/class-wpdb.php:1775
+[13-Mar-2023 14:32:24 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
