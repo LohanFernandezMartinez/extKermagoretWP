@@ -1,0 +1,10 @@
+{
+    "name": "veepia/veepiapage",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "Veepia\\Veepiapage\\": "src/"
+        }
+    },
+    "require": {}
+}
